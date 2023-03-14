@@ -5,7 +5,7 @@ namespace Oyova\PhpSupport\Values;
 use RyanWhitman\PhpValues\Concerns\Stringable;
 use RyanWhitman\PhpValues\Value;
 
-class StringContainingOnlyDigits extends Value
+class DigitString extends Value
 {
     use Stringable;
 
