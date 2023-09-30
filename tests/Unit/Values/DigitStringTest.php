@@ -17,7 +17,7 @@ $invalidValues = collect([
     1.0,
     'test',
     [],
-    new stdclass(),
+    new stdClass(),
 ]);
 
 testValidValues(DigitString::class, $validValues);
